@@ -1,4 +1,6 @@
 const LoginForm = () => {
+  const handleSubmit = () => {}
+
   return (
     <div>
       <h1>
