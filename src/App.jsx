@@ -1,10 +1,12 @@
+import LoginPage from "./pages/LoginPage"
+
 function App() {
   // state
 
   //comportement
 
   //affichage
-  return <></>
+  return <LoginPage />
 }
 
 export default App
