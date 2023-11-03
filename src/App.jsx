@@ -10,7 +10,7 @@ function App() {
       element: <LoginPage />,
     },
     {
-      path: "/order",
+      path: "/order/:name",
       element: <OrderPage />,
     },
     {
