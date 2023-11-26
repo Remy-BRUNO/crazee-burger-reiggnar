@@ -24,10 +24,10 @@ const LoginForm = () => {
         id="name"
         value={inputValue}
         onChange={handleChange}
-        placeholder="entrez votre prénom ..."
+        placeholder="Entrez votre prénom"
         required
       />
-      <button type="submit">Accéder à votre espace</button>
+      <button type="submit">Accéder à mon espace</button>
     </form>
   )
 }
