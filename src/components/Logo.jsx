@@ -1,5 +1,6 @@
 import logo from "../assets/logo-orange.png"
 import styled from "styled-components"
+import { theme } from "../theme"
 
 const Logo = () => {
   return (
@@ -13,9 +14,9 @@ export default Logo
 const H1 = styled.h1`
   display: flex;
   align-items: center;
-  color: #ffa01b;
+  color: ${theme.colors.primary};
   gap: 0.5rem;
-  font-family: Amatic SC;
+  font-family: "Amatic SC", cursive;
   font-size: 110px;
   letter-spacing: 1.5px;
   text-transform: uppercase;

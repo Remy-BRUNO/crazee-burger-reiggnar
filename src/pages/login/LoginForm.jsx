@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 import styled from "styled-components"
 import { IoPersonCircleOutline } from "react-icons/io5"
 import { IoIosArrowForward } from "react-icons/io"
+import { theme } from "../../theme"
 const LoginForm = () => {
   const [inputValue, setInputValue] = useState("")
   const navigate = useNavigate()
@@ -49,40 +50,40 @@ const FormStyled = styled.form`
   align-items: center;
   gap: 1rem;
   h1 {
-    color: #fff;
+    color: ${theme.colors.white};
     font-family: Amatic SC;
-    font-size: 48px;
+    font-size: ${theme.fonts.P5};
   }
   h2 {
-    color: #fff;
+    color: ${theme.colors.white};
     font-family: Amatic SC;
-    font-size: 36px;
+    font-size: ${theme.fonts.P4};
     padding-top: 2rem;
   }
   svg {
-    color: #9a9a9a;
+    color: ${theme.colors.greySemiDark};
   }
 `
 
 const Bar = styled.div`
   width: 400px;
   height: 3px;
-  border: 1px solid #f56a2c;
-  background: #f56a2c;
+  border: 1px solid ${theme.colors.loginLine};
+  background: ${theme.colors.loginLine};
 `
 const DivInput = styled.div`
   padding: 18px 24px;
-  gap: 12.797px;
+  gap: ${theme.spacing.sm};
   display: flex;
   width: 400px;
   height: 53px;
-  border-radius: 5px;
-  background: #fff;
+  border-radius: ${theme.borderRadius.round};
+  background: ${theme.colors.white};
   input {
     display: flex;
     padding: 1px 2px;
     justify-content: center;
-    background: #fff;
+    background: ${theme.colors.white};
     border: none;
     width: 90%;
   }
@@ -102,23 +103,23 @@ const Button = styled.button`
   width: 400px;
   height: 53px;
   justify-content: center;
-  gap: 0.5rem;
+  gap: ${theme.spacing.xs};
   align-items: center;
-  border-radius: 5px;
-  border: 1px solid #ff9f1b;
-  background: #ff9f1b;
+  border-radius: ${theme.borderRadius.round};
+  border: 1px solid ${theme.colors.primary};
+  background: ${theme.colors.primary};
   cursor: pointer;
-  color: #fff;
+  color: ${theme.colors.white};
   svg {
-    color: #fff;
+    color: ${theme.colors.white};
   }
   &:hover {
-    border: 1px solid #ff9f1b;
-    color: #ff9f1b;
-    background: #fff;
+    border: 1px solid ${theme.colors.primary};
+    color: ${theme.colors.primary};
+    background: ${theme.colors.white};
   }
   &:hover svg {
-    color: #ff9f1b;
+    color: ${theme.colors.primary};
   }
   &:focus,
   &:focus-visible {
