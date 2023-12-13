@@ -11,7 +11,7 @@ export default function LoginPage() {
   //affichage
   return (
     <LoginDiv>
-      <Logo />
+      <Logo className={"logo-loginPage"} />
       <LoginForm />
     </LoginDiv>
   )
@@ -28,4 +28,7 @@ const LoginDiv = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  .logo-loginPage {
+    transform: scale(2.5);
+  }
 `

@@ -1,15 +1,19 @@
 import { IoPersonCircleOutline } from "react-icons/io5"
-import Logo from "./Logo"
+import Logo from "../../components/Logo"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const Navbar = ({ name }) => {
   return (
-    <NavbarStyled className="navbar">
-      <Logo className="logo" />
+    <NavbarStyled>
+      <div className="left-side">
+        <Logo />
+      </div>
 
-      <div>
-        <h1>Hey, {name}</h1>
+      <div className="right-side">
+        <h1>
+          Hey,<span className="name"> {name}</span>
+        </h1>
         <Link to="/">
           <button>Se déconnecter</button>
         </Link>
@@ -21,13 +25,14 @@ const Navbar = ({ name }) => {
 export default Navbar
 
 const NavbarStyled = styled.nav`
-  border: 5px solid red;
   height: 10vh;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .logo {
-    width: 100px;
+
+  .left-side {
+  }
+  .right-side {
   }
 `

@@ -2,11 +2,13 @@ import logo from "../assets/logo-orange.png"
 import styled from "styled-components"
 import { theme } from "../theme"
 
-const Logo = () => {
+const Logo = ({ className }) => {
   return (
-    <H1>
-      CRAZEE <img src={logo} alt="logo" /> BURGER
-    </H1>
+    <div className={className}>
+      <H1>
+        CRAZEE <img src={logo} alt="logo" /> BURGER
+      </H1>
+    </div>
   )
 }
 export default Logo
@@ -17,10 +19,10 @@ const H1 = styled.h1`
   color: ${theme.colors.primary};
   gap: 0.5rem;
   font-family: "Amatic SC", cursive;
-  font-size: 110px;
+  font-size: ${theme.fonts.P4};
   letter-spacing: 1.5px;
   text-transform: uppercase;
   img {
-    width: 200px;
+    width: 80px;
   }
 `

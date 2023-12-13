@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import styled from "styled-components"
 import { theme } from "../../theme"
-import Navbar from "../../components/Navbar"
+import Navbar from "./Navbar"
 import Main from "./Main"
 
 const OrderPage = () => {
