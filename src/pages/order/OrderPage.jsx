@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import styled from "styled-components"
 import { theme } from "../../theme"
-import Navbar from "./Navbar"
+import Navbar from "./navbar/Navbar"
 import Main from "./Main"
 
 const OrderPage = () => {
@@ -27,6 +27,8 @@ const OrderPageStyled = styled.div`
 
   .container {
     background: ${theme.colors.background_white};
+    border-radius: ${theme.borderRadius.extraRound};
+
     height: 95vh;
     width: 1400px;
     display: flex;

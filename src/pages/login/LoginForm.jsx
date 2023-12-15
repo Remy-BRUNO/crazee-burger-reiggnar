@@ -4,6 +4,7 @@ import styled from "styled-components"
 import { IoPersonCircleOutline } from "react-icons/io5"
 import { IoIosArrowForward } from "react-icons/io"
 import { theme } from "../../theme"
+
 const LoginForm = () => {
   const [inputValue, setInputValue] = useState("")
   const navigate = useNavigate()
