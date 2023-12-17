@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { theme } from "../../theme"
 
 const Main = () => {
   return <MainStyled>Main</MainStyled>
@@ -6,5 +7,8 @@ const Main = () => {
 export default Main
 const MainStyled = styled.main`
   flex: 1; /* prend la place qui reste */
-  box-shadow: 0px 8px 20px 8px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: ${theme.shadows.shadow};
+  border-bottom-left-radius: ${theme.borderRadius.extraRound};
+  border-bottom-right-radius: ${theme.borderRadius.extraRound};
+  background: ${theme.colors.background_white};
 `

@@ -26,9 +26,6 @@ const OrderPageStyled = styled.div`
   align-items: center;
 
   .container {
-    background: ${theme.colors.background_white};
-    border-radius: ${theme.borderRadius.extraRound};
-
     height: 95vh;
     width: 1400px;
     display: flex;

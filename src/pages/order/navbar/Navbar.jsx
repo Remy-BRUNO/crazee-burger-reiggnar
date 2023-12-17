@@ -22,6 +22,10 @@ const NavbarStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top-left-radius: ${theme.borderRadius.extraRound};
+  border-top-right-radius: ${theme.borderRadius.extraRound};
+  background: ${theme.colors.white};
+
   a {
     text-decoration: none;
   }

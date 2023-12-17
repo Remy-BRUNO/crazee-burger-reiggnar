@@ -25,7 +25,7 @@ const RightSideStyled = styled.div`
   justify-content: center;
   align-items: center;
   color: ${theme.colors.greyBlue};
-
+  padding-right: 50px;
   svg {
     width: 50px;
     height: 50px;
@@ -35,5 +35,9 @@ const RightSideStyled = styled.div`
   }
   a {
     color: ${theme.colors.greyBlue};
+  }
+  a:hover {
+    text-decoration: underline;
+    color: ${theme.colors.greyDark};
   }
 `
