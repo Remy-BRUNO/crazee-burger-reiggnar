@@ -32,6 +32,7 @@ const RightSideStyled = styled.div`
   }
   .name {
     color: ${theme.colors.primary};
+    text-transform: capitalize;
   }
   a {
     color: ${theme.colors.greyBlue};

@@ -1,15 +1,13 @@
 import Logo from "../../../components/Logo"
-import { Link } from "react-router-dom"
 import styled from "styled-components"
 import { theme } from "../../../theme"
 import RightSide from "./RightSide"
-
+import { refreshPoage } from "../../../Utils/window"
 const Navbar = ({ name }) => {
   return (
     <NavbarStyled>
-      <Link to={`/order/${name}`} className="left-side">
-        <Logo />
-      </Link>
+      <Logo onClick={refreshPoage} className="logo-order-page" />
+
       <RightSide name={name} />
     </NavbarStyled>
   )
@@ -25,11 +23,7 @@ const NavbarStyled = styled.nav`
   border-top-left-radius: ${theme.borderRadius.extraRound};
   border-top-right-radius: ${theme.borderRadius.extraRound};
   background: ${theme.colors.white};
-
-  a {
-    text-decoration: none;
-  }
-
-  .left-side {
+  .logo-order-page {
+    cursor: pointer;
   }
 `
