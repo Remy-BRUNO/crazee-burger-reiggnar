@@ -1,7 +1,27 @@
+import {
+  burger1,
+  burger2,
+  burger3,
+  burger4,
+  burger5,
+  burger6,
+  burgerBaconEgg,
+  burgerVegan,
+  drink1,
+  drink2,
+  drink3,
+  frite1,
+  frite2,
+  frite3,
+  iceCream,
+  wedges1,
+  wedges2,
+} from "../assets/index"
+
 export const fakeMenu1 = [
   {
     id: 1,
-    imageSource: "/assets/burger1.png",
+    imageSource: burger1,
     title: "Burger 1",
     price: 5.297,
     quantity: 0,
@@ -10,7 +30,7 @@ export const fakeMenu1 = [
   },
   {
     id: 2,
-    imageSource: "/assets/burger2.png",
+    imageSource: burger2,
     title: "Burger 2",
     price: 7.556,
     quantity: 0,
@@ -22,7 +42,7 @@ export const fakeMenu1 = [
 export const fakeMenu2 = [
   {
     id: 1,
-    imageSource: "/assets/burger-bacon-egg.png",
+    imageSource: burgerBaconEgg,
     title: "Burger Smoke BBQ",
     price: 5.598,
     quantity: 0,
@@ -31,7 +51,7 @@ export const fakeMenu2 = [
   },
   {
     id: 2,
-    imageSource: "/assets/burger-vegan.png",
+    imageSource: burgerVegan,
     title: "Vegan Burger",
     price: 5.4985,
     quantity: 0,
@@ -40,7 +60,7 @@ export const fakeMenu2 = [
   },
   {
     id: 3,
-    imageSource: "/assets/burger3.png",
+    imageSource: burger3,
     title: "Burger poulet",
     price: 5.367,
     quantity: 0,
@@ -49,7 +69,7 @@ export const fakeMenu2 = [
   },
   {
     id: 4,
-    imageSource: "/assets/drink1.png",
+    imageSource: drink1,
     title: "Coke 25cl",
     price: 3.568,
     quantity: 0,
@@ -58,7 +78,7 @@ export const fakeMenu2 = [
   },
   {
     id: 5,
-    imageSource: "/assets/drink2.png",
+    imageSource: drink2,
     title: "Pepsi 25cl",
     price: 3.487,
     quantity: 0,
@@ -67,7 +87,7 @@ export const fakeMenu2 = [
   },
   {
     id: 6,
-    imageSource: "/assets/drink3.png",
+    imageSource: drink3,
     title: "Iced Tea 25cl",
     price: 3.356,
     quantity: 0,
@@ -76,7 +96,7 @@ export const fakeMenu2 = [
   },
   {
     id: 7,
-    imageSource: "/assets/frites1.png",
+    imageSource: frite1,
     title: "Frites Paprika",
     price: 2.567,
     quantity: 0,
@@ -85,7 +105,7 @@ export const fakeMenu2 = [
   },
   {
     id: 8,
-    imageSource: "/assets/fries3.png",
+    imageSource: frite3,
     title: "New York Fries",
     price: 3.1678,
     quantity: 0,
@@ -94,7 +114,7 @@ export const fakeMenu2 = [
   },
   {
     id: 9,
-    imageSource: "/assets/wedges1.png",
+    imageSource: wedges1,
     title: "Crispy Potatoes",
     price: 3.7,
     quantity: 0,
@@ -103,7 +123,7 @@ export const fakeMenu2 = [
   },
   {
     id: 10,
-    imageSource: "/assets/ice-cream.png",
+    imageSource: iceCream,
     title: "Glaces artisanales",
     price: 4.678,
     quantity: 0,

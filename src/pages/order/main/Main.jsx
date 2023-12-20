@@ -21,6 +21,7 @@ const MainStyled = styled.main`
   grid-row-gap: 60px;
   display: grid;
   grid-template-columns: 25% 75%;
+  overflow-y: scroll;
   .Basket {
     border: 5px solid blue;
   }
