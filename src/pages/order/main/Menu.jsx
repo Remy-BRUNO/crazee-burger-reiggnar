@@ -9,7 +9,23 @@ const Menu = () => {
   return (
     <MenuStyled className="menu">
       {menu.map((produit) => {
-        return <Card key={produit.id} produit={produit} />
+        const {
+          id,
+          imageSource,
+          title,
+          price,
+          quantity,
+          isAvailable,
+          isAdvertised,
+        } = produit
+        return (
+          <Card
+            key={id}
+            title={title}
+            imageSource={imageSource}
+            price={price}
+          />
+        )
       })}
     </MenuStyled>
   )

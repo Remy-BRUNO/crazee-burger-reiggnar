@@ -36,6 +36,7 @@ const RightSideStyled = styled.div`
   }
   a {
     color: ${theme.colors.greyBlue};
+    text-decoration: none;
   }
   a:hover {
     text-decoration: underline;
