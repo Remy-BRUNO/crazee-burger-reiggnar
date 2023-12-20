@@ -47,7 +47,10 @@ const borderRadius = {
   extraRound: "15px",
   circle: "50%",
 }
-const shadows = { shadow: "0px 8px 20px 8px rgba(0, 0, 0, 0.2) inset" }
+const shadows = {
+  shadowInset: "0px 8px 20px 8px rgba(0, 0, 0, 0.2) inset",
+  shadowOutset: "-8px 8px 20px 0px rgb(0 0 0 / 20%)",
+}
 const weights = {
   light: 300,
   regular: 400,
