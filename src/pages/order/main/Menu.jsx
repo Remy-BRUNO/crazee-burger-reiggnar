@@ -33,7 +33,6 @@ const Menu = () => {
 export default Menu
 
 const MenuStyled = styled.div`
-  border: 5px solid red;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-row-gap: 60px;

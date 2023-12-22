@@ -33,10 +33,10 @@ const fonts = {
   XXS: "0.625rem",
   XS: "0.75rem",
   P0: "1rem",
-  P1: "1.125rem",
+  P1: "1.125rem", // 18px
   P2: "1.25rem",
   P3: "1.5rem",
-  P4: "2.25rem",
+  P4: "2.25rem", // 36px
   P5: "3rem",
   P6: "3.75rem",
 }
