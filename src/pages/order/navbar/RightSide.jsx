@@ -2,11 +2,13 @@ import styled from "styled-components"
 import { theme } from "../../../theme"
 import { Link } from "react-router-dom"
 import { IoPersonCircleOutline } from "react-icons/io5"
+import NavbarRightSideIncomplet from "./NavbarRightSideIncomplet"
 
 const RightSide = ({ name }) => {
   return (
     <RightSideStyled>
-      <div className="admin-button">button</div>
+      <NavbarRightSideIncomplet />
+
       <div>
         <h1>
           Hey,<span className="name"> {name}</span>
